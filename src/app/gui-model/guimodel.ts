@@ -143,6 +143,12 @@ export class GuiModel {
                             "color": "yellow",
                             "page": "locationspage",
                         },
+                        {   "type": "button", 
+                            "name": "Groups", 
+                            "icon": "fa-weixin", 
+                            "color": "wisteria", 
+                            "page": "groupspage", 
+                        },
                     ]
                 },
                 {
@@ -200,6 +206,21 @@ export class GuiModel {
                         },
                     ]
                 },
+                    { "id": "groupspage", 
+                    "elementList": [ 
+                        { 
+                            "type": "backbutton",
+                        }, 
+                        { "type": "newButton", 
+                        "name": "NewGroup", 
+                        "icon": "fa-weixin", 
+                        "color": "green", 
+                        "form": {
+                            "form": "GroupForm" 
+                            } 
+                        } 
+                    ] 
+            }
             ]
         }
     };
