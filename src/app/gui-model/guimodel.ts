@@ -287,6 +287,33 @@ export class GuiModel {
                         }
                     ]
                 },
+                {
+                    "id": "activitypage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "newButton",
+                            "name": "activity",
+                            "icon": "fa-user",
+                            "color": "green",
+                            "form": {
+                                "form": "FriendForm"
+                            }
+                        },
+                        {
+                            "type": "list",
+                            "icon": "fa-user",
+                            "color": "pink",
+                            "search": true,
+                            "url": "/activity",
+                            "form": {
+                                "form": "Activityform"
+                            }
+                        },
+                    ]
+                },
             ]
         }
     };
